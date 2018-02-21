@@ -1,40 +1,38 @@
 [
     {
-        "displayName": "Horry County",
+        "displayName": "Resilient Coastal Cities",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
-            "url": "http://services.coastalresilience.org/arcgis/rest/services/South_Carolina",
-            "name": "Horry_County"
+            "url": "http://tncmaps.eastus.cloudapp.azure.com/arcgis/rest/services/Indonesia",
+            "name": "Resilient_Coastal_Cities"
         },
         "includeLayers": [
             {
-                "name": "Past and Future Flood Risk Models",
-                "displayName": "Past and Future Flood Risk Models",
+                "name": "Ecological",
+                "displayName": "Ecological",
                 "includeAllLayers": true
-            },
-            {
-                "name": "FEMA Flood Zones",
-                "displayName": "HFEMA Flood Zones",
-                "includeAllLayers": true
-            },
-             {
-                "name": "National Wetlands Inventory",
-                "displayName": "National Wetlands Inventory"
-            },
-            {
-                "name": "City of Conway Land Cover",
-                "displayName": "City of Conway Land Cover"
-            },
-            {
-                "name": "Social Vulnerability Index",
-                "displayName": "Social Vulnerability Index"
             },
             {
                 "name": "Infrastructure",
                 "displayName": "Infrastructure", 
                 "includeAllLayers": true
-            }    
+            },
+            {
+                "name": "Socio Economic",
+                "displayName": "Socio Economic", 
+                "includeAllLayers": true
+            },
+            {
+                "name": "Topography",
+                "displayName": "Topography", 
+                "includeAllLayers": true
+            },
+            {
+                "name": "Flood Risk",
+                "displayName": "Flood Risk", 
+                "includeAllLayers": true
+            }         
         ]
     }
 ]
