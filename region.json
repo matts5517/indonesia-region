@@ -1,8 +1,8 @@
 {
     "googleAnalyticsPropertyId": "7401895-38",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/southcarolina" },
-    "titleDetail": { "text": "South Carolina", "url": "http://coastalresilience.org/project/southcarolina/" },
+    "titleMain": { "text": "Coastal Resilience", "url": "" },
+    "titleDetail": { "text": "Resilient Coastal Cities", "url": "" },
 	"headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
@@ -21,10 +21,10 @@
             { "text": "Washington", "url": "http://maps.coastalresilience.org/pugetsound" }
     ],
     "initialExtent": [
-        -84.055149999,
-        32.042478096,
-        -78.006200931,
-        35.416777485
+        110.022797644,
+        -7.352522887,
+        110.733324465,
+        -6.667333342
     ],
     "basemaps": [
 		{ "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
@@ -58,8 +58,8 @@
     },
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
     "launchpad": {
-            "title": "South Carolina",
-            "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.  For additional project information, visit the <a href= 'http://coastalresilience.org/project/southcarolina/' target='_blank'><b>South Carolina</b></a> home page.</p>",
+            "title": "Resilient Coastal Cities",
+            "description": "<p>The Coastal Resilience decision-support tool provides communities access to the best available science and local data on coastal hazards to visualize their risks and examine where nature can increase resilience and reduce risk through conservation and restoration activities.</p>",
 			 "plugins": [	
                 {
                     "title": "<img src='img/community_planning.png' hspace=10>Community Planning",
