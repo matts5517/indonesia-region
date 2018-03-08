@@ -4,6 +4,11 @@
         {
             "repo": "regional-planning",
             "name": "regional-planning"
+        },
+        {
+            "repo": "floodtags-test-app",
+            "name": "floodtags-test-app"
         }
+        
     ]
 }
